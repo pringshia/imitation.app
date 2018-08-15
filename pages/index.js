@@ -166,18 +166,3 @@ const Title = styled("div")`
     }
   }
 `;
-
-injectGlobal`
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: #7884EB;
-        height: 100vh;
-        width: 100vw;
-        display: flex;      
-        align-items: center;
-        justify-content: center;  
-        font-family: "Museo Sans";    
-        color: white;
-    }
-`;
