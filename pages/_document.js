@@ -22,6 +22,7 @@ export default class MyDocument extends Document {
         <Head>
           <title>Imitation</title>
           <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
+          <link rel="stylesheet" href="https://use.typekit.net/fxx4mxg.css" />
           <style
             dangerouslySetInnerHTML={{
               __html: `          
@@ -34,7 +35,7 @@ export default class MyDocument extends Document {
                     display: flex;      
                     align-items: center;
                     justify-content: center;  
-                    font-family: "Museo Sans";    
+                    font-family: "museo-sans";    
                     color: white;
                 }`
             }}

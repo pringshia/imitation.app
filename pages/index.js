@@ -70,10 +70,10 @@ const Post = styled("div")`
 
   display: flex;
   cursor: pointer;
-  font-family: "Museo Sans";
+  font-family: "museo-sans";
   color: white;
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 700;
   font-style: italic;
   background-color: #3a3a3a;
   width: 150px;
@@ -83,7 +83,6 @@ const Post = styled("div")`
 
   .number {
     margin-left: -60px;
-    font-weight: 500;
   }
 
   .title {
@@ -94,7 +93,6 @@ const Post = styled("div")`
 
     display: block;
     white-space: nowrap;
-    font-weight: 500;
     letter-spacing: 1px;
   }
 `;
@@ -147,14 +145,14 @@ const Title = styled("div")`
     font-size: 25px;
     line-height: 45px;
     color: white;
-    font-family: "Museo Sans";
-    font-weight: 300;
+    font-family: "museo-sans";
+    font-weight: 100;
     font-style: italic;
 
     span.title {
       display: block;
-      font-family: "Copperplate";
-      font-size: 70px;
+      font-family: "copperplate";
+      font-size: 58px;
       font-style: normal;
       font-weight: bold;
       letter-spacing: 8px;
