@@ -115,7 +115,7 @@ const Wrapper = styled("div")`
 
 const Title = styled("div")`
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 500px;
   height: 500px;
@@ -124,22 +124,22 @@ const Title = styled("div")`
   .circle {
     vertical-align: bottom;
     position: absolute;
-    left: -20%;
-    bottom: -30%;
+    left: -10%;
+    top: -39%;
   }
 
   .rect {
     width: 300px;
     height: 250px;
     position: absolute;
-    bottom: 0;
-    left: 200px;
+    top: 116px;
+    left: -84px;
     vertical-align: bottom;
   }
 
   .blurb {
     position: absolute;
-    bottom: 12%;
+    top: 10%;
     left: 50px;
     width: 75%;
     font-size: 25px;
